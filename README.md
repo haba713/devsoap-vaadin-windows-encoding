@@ -17,7 +17,8 @@ Wait for the message: `Application running on http://localhost:8080`
 
 Open http://localhost:8080 in browser. 
 
-You should see `A B C Å Ä Ö` which is the case with Linux and Mac.
+You should see `A B C Å Ä Ö` which is the case when running the app in Linux
+or Mac.
 
-However, in Windows you see `A B C Ã… Ã„ Ã–`. How can I fix the problem?
-
+However, in you run the app in Windows you'll see `A B C Ã… Ã„ Ã–`. How can I
+fix the problem?
