@@ -25,3 +25,17 @@ the case when running the app in Linux or Mac.
 
 However, in you run the app in Windows you'll see `A B C Ã… Ã„ Ã–`. How can I
 fix the problem?
+
+## Edit 2021-05-28: Issue Resolved!
+
+Adding
+
+```
+compileJava {
+    options.encoding = 'UTF-8'
+}
+```
+
+to [build.gradle](build.gradle) resolves the issue. See
+[this Stack Overflow answer](https://stackoverflow.com/a/67701306/2158271)
+for more information.
